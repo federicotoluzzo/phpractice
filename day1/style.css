@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    background: #dde;
+    font-weight: 600;
+    margin: 0;
+}
+
+.item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    border-radius: 10px;
+    background: #0002;
+    width: 400px;
+    box-shadow: 0 5px 5px #0004;
+    transition: all 0.1s ease-in-out;
+    gap: 20px;
+}
+
+.item:hover {
+    transform: scale(105%);
+    box-shadow: 0 10px 10px #0003;
+}
+
+.number {
+    width: fit-content;
+}
+
+#cart {
+    display: flex;
+    margin-inline: auto;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    flex-direction: column;
+    background-color: #0002;
+    width: fit-content;
+    padding: 20px;
+    border-radius: 30px;
+    margin-block: 50px;
+    box-shadow: 0 5px 5px #0004;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.submit {
+    padding: 15px;
+    border-radius: 999px;
+    border: none;
+    font-weight: 700;
+    transition: all 0.2s;
+    box-shadow: 0 5px 5px #0004;
+}
+
+.submit:hover {
+    cursor: pointer;
+    transform: scale(105%);
+    box-shadow: 0 10px 10px #0003;
+}
+
+.icon {
+    aspect-ratio: 1/1;
+    width: 30%;
+    object-fit: contain;
+}

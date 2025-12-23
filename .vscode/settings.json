@@ -1,0 +1,5 @@
+{
+    "phpserver.browser": "firefox",
+    "phpserver.phpConfigPath": "\"C:\\Users\\federico.toluzzo\\Downloads\\php-8.5.0-Win32-vs17-x64\\php.ini-development\"",
+    "phpserver.phpPath": "\"C:\\Users\\federico.toluzzo\\Downloads\\php-8.5.0-Win32-vs17-x64\\php.exe\""
+}
