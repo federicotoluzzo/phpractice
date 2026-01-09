@@ -7,10 +7,10 @@
     $items = "<ul>";
 
     foreach (explode("&", file_get_contents('php://input')) as $item) {
-      $items . "<li>$item</li>";
+      $items = $items . "<li>$item</li>";
     }
 
-    $items . "</ul>";
+    $items = $items . "</ul>";
 
     echo ("<script>alert('$items');</script>");
 
