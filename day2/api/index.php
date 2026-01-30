@@ -1,9 +1,11 @@
 <?php
 
-$path = explode('/', explode('/php/day2/api/', $_SERVER['REQUEST_URI'])[1]);
+$path = explode('/', explode('/phpractice/day2/api/', $_SERVER['REQUEST_URI'])[1]);
+
+header('Content-Type: application/json');
 
 switch($path[0]){
     case 'login':
-        
+        echo '{"status": "success", "message": "Logged in successfully"}';
         break;
 }
